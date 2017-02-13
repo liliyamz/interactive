@@ -1,0 +1,21 @@
+/*body{
+		max-width: 30px;
+		max-height: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+		margin-bottom: auto;
+		overflow: auto;
+	}*/
+
+.container{
+	width: 50px;
+	height: auto;
+	border: 2px dashed #000000;
+	border-radius: 300px;
+	margin-top: 650px;
+	margin-bottom: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 100px;
+}

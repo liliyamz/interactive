@@ -1,0 +1,25 @@
+section {
+	float: left;
+}
+
+.container{
+	width: 150px;
+	height: 150px;
+	border: 2px double #000000;
+	margin-top: 50px;
+	margin-bottom: auto;
+	margin-left: 50px;
+	margin-right: auto;
+	padding: 40px;
+}
+
+.containerbottom{
+	width: 150px;
+	height: 150px;
+	border: 2px double #000000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: auto;
+	padding: 40px;
+}

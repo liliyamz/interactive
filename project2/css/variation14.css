@@ -1,0 +1,38 @@
+/*body{
+		max-width: 30px;
+		max-height: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+		margin-bottom: auto;
+		overflow: auto;
+	}*/
+
+/*.container{
+	width: 170px;
+	height: auto;
+  border: 2px dashed #000000;
+  border-radius: 300px;
+  margin-top: 650px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px;
+}*/
+.section1 {
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 100%;
+}
+
+.section6 {
+  display: inline-block;
+  margin: 0 1%;
+  width: 13%;
+}
+
+.section3 {
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
