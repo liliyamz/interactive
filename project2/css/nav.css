@@ -1,27 +1,82 @@
-
-
-.footertitle{
-    position: fixed;
-    bottom: 10px;
-    right: 30px;
-}
-
-.footermenu{
-    position: fixed;
-    bottom: 10px;
-    margin-left: 30px;
-}
-
 main{
+  margin-top: 50px;
   margin-left: 30px;
   margin-right: 30px;
 }
 
-#menu{
+#footercontainer{
+    position: fixed;
+    margin-left: 30px;
+    top: 0;
     font-family: Space Mono, monospace;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.4;
+}
+
+#footercontainer .footertitle{
+    position: fixed;
+    top: 10px;
+    right: 30px;
+}
+
+#footercontainer .dropbtn {
+    position: fixed;
+    top: 10px;
+    left: 40px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+#footercontainer .dropdown {
+    position: fixed;
+    display: inline-block;
+    top: 5px;
+    left: 77px;
+    text-overflow: auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#footercontainer .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 30px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+#footercontainer .dropdown-content a {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+#footercontainer .dropdown-content a:hover {
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+/* Show the dropdown menu on hover */
+#footercontainer .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#footercontainer .dropdown:hover .dropbtn {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+#footercontainer .footermenu{
+    position: fixed;
+    top: 10px;
+    margin-left: 30px;
 }
 
 .footertitle a:link {
@@ -46,8 +101,11 @@ main{
     text-decoration: underline;
 }
 
-.footermenu a:current {
-    background-color: yellow;
+.footermenu a:visited {
+  color: black;
+}
+
+.currentlink {
     text-decoration: underline;
 }
 
@@ -56,6 +114,7 @@ main{
   width: 25px;
   position: fixed;
   top: 0;
+  bottom: 0;
   left: 0;
   margin: auto;
   mix-blend-mode: multiply;
@@ -66,13 +125,14 @@ main{
   width: 25px;
   position: fixed;
   top: 0;
+  bottom: 0;
   right: 0;
   margin: auto;
   mix-blend-mode: multiply;
 }
 
 .nav-arrow-left {
-  height: 60px;
+  height: 0px;
   width: 20px;
   position: fixed;
   top: 0;
@@ -88,7 +148,7 @@ main{
 }
 
 .nav-arrow-right {
-  height: 60px;
+  height: 0px;
   width: 20px;
   position: fixed;
   top: 0;
