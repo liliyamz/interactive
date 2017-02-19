@@ -46,7 +46,7 @@ main{
     text-decoration: underline;
 }
 
-.footermenu a:active {
+.footermenu a:current {
     background-color: yellow;
     text-decoration: underline;
 }
