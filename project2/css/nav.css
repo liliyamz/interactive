@@ -1,0 +1,113 @@
+
+
+.footertitle{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+.footermenu{
+    position: fixed;
+    bottom: 10px;
+    margin-left: 30px;
+}
+
+main{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#menu{
+    font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.footertitle a:link {
+    color: #000;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+.footertitle a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.footermenu a:link {
+    color: #000;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+.footermenu a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.footermenu a:active {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.nav-left {
+  height: 2000px;
+  width: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  mix-blend-mode: multiply;
+}
+
+.nav-right {
+  height: 2000px;
+  width: 25px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: auto;
+  mix-blend-mode: multiply;
+}
+
+.nav-arrow-left {
+  height: 60px;
+  width: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  text-align: right;
+
+  font-family: Space Mono, monospace;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.nav-arrow-right {
+  height: 60px;
+  width: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+
+  font-family: Space Mono, monospace;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.nav-left:hover {
+  background-color: yellow;
+  mix-blend-mode: multiply;
+}
+
+.nav-right:hover {
+  background-color: yellow;
+  mix-blend-mode: multiply;
+}
