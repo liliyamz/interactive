@@ -10,6 +10,7 @@ main{
     top: 0;
     font-family: Space Mono, monospace;
     font-weight: normal;
+    color: black;
     font-size: 12px;
     line-height: 1em;
 }
@@ -20,23 +21,23 @@ main{
     right: 40px;
 }
 
-a:link {
+.footertitle a:link {
     color: black;
     padding: 0px 0px;
     text-decoration: none;
 }
 
-a:hover {
+.footertitle a:hover {
     background-color: yellow;
     text-decoration: underline;
     line-height: 1em;
 }
 
-a:visted {
+.footertitle a:visted {
   color: black;
 }
 
-a:active {
+.footertitle a:active {
   color: black;
 }
 
