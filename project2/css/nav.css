@@ -20,23 +20,23 @@ main{
     right: 40px;
 }
 
-.footertitle a:link {
+a:link {
     color: black;
     padding: 0px 0px;
     text-decoration: none;
 }
 
-.footertitle a:hover {
+a:hover {
     background-color: yellow;
     text-decoration: underline;
     line-height: 1em;
 }
 
-.footertitle a:visted {
-  color: red;
+a:visted {
+  color: black;
 }
 
-.footertitle a:active {
+a:active {
   color: black;
 }
 
