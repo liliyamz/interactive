@@ -22,7 +22,7 @@ main{
     right: 40px;
 }
 
-.footertitle a:link, a:visited, a:active {
+.footertitle a:link {
     color: black;
     padding: 0px 0px;
     text-decoration: none;
@@ -32,6 +32,14 @@ main{
     background-color: yellow;
     text-decoration: underline;
     line-height: 1em;
+}
+
+.footertitle a:visted {
+  color: black;
+}
+
+.footertitle a:active {
+  color: black;
 }
 
 
