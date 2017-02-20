@@ -32,6 +32,10 @@ main{
     line-height: 1em;
 }
 
+.footertitle a:visted {
+  color: black;
+}
+
 
 
 .nav-left {
