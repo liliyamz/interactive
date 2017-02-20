@@ -16,6 +16,7 @@ main{
 }
 
 #footercontainer .footertitle{
+    color: black;
     position: fixed;
     top: 10px;
     right: 40px;
