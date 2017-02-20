@@ -1,5 +1,5 @@
 main{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -139,7 +139,7 @@ main{
   color: black;
 }
 
-.navigation ul {width: 5em;}
+.navigation ul {width: 7em;}
 
 .navigation ul ul {width: 6.3em;}
 

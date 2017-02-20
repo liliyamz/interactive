@@ -1,0 +1,20 @@
+main{
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  font-family: Space Mono, monospace;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+.title{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.subtitle{
+  font-size: 30px;
+
+}
