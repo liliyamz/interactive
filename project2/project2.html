@@ -2,33 +2,119 @@
 <html>
 
 <head>
-	<title>25 Variations</title>
+	<title>25 VARIATIONS</title>
 
 	<style>
 	body{
-		background-image: url("https://media.giphy.com/media/vjzglMzZO6iI0/giphy.gif");
-    	background-position: 100% 0%;
-    	background-repeat: repeat-y;
-	}
-
-    main{
-    	position: absolute;
-    	top: 100px;
-    	left: 75px;
-    	color: black;
+		color: black;
     	font-family: Space Mono, monospace;
+    	font-size: 25pt;
     	background-color: white;
-    }
+	}
 
     .name{
 		position: fixed;
-		top: 20px;
-		left: 75px;
-		color: black;
-		font-family: Space Mono, monospace;
+		bottom: 0px;
+		margin-left: 37px;
+		font-size: 45pt;
     }
+
+    .navigation ul,
+	.navigation ul li,
+	.navigation ul ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+	  top: 0px;
+	  left: 5px;
+	}
+
+	.navigation ul {
+	  position: relative;
+	  z-index: 1;
+	  float: left;
+	}
+
+	.navigation ul li {
+	  float: left;
+	  line-height: 1em;
+	}
+
+	.navigation ul ul {
+	  visibility: hidden;
+	  position: absolute;
+	}
+
+	.navigation ul ul {
+	  top: 0;
+	  left: 100%;
+	}
+
+	.navigation a {
+	  display: block;
+	  padding: 1em 1em;
+	  text-decoration: none;
+	  color: black;
+	}
+
+	.navigation ul {width: 8em;}
+
+	.navigation ul ul {width: 6.3em;}
+
+	.navigation ul ul ul {width: 3em;}
+
+	.navigation ul li:hover > ul {visibility: visible;}
+
+	.navigation ul li:hover {
+	  position: relative;
+	  z-index: 1;
+	  cursor: pointer;
+	  text-decoration: underline;
+	  background-color: yellow;
+	  left: 0;
+	}
+
+	.navigation > ul > li:hover a {background: rgba(255,255,255,.9);
+	  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1); 
+	  mix-blend-mode: multiply;
+	}
+
+	.nav-right {
+	  height: 4000px;
+	  width: 30px;
+	  position: fixed;
+	  top: 0;
+	  bottom: 0;
+	  right: 0;
+	  margin: auto;
+	  mix-blend-mode: multiply;
+	}
+
+	.nav-arrow-right {
+	  height: 0px;
+	  width: 20px;
+	  position: fixed;
+	  top: 0;
+	  bottom: 0;
+	  right: 0;
+	  margin: auto;
+
+	  font-family: Space Mono, monospace;
+	  font-weight: normal;
+	  font-size: 20px;
+	  line-height: 1.4;
+	}
+
+	.nav-right:hover {
+	  background-color: yellow;
+	  mix-blend-mode: multiply;
+	  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+	}
     </style>
 </head>
+
+<div class="nav-arrow-right">></div>
+<a class="nav-right" href="../level1"></a>
 
 <body link="black" vlink="red">
 
@@ -37,43 +123,66 @@
 <br>Vito Acconci</p>
 </div>
 
-<main>
-	<ol>
-		<li><a href="level1/variation01.html">Level 1.1</a></li>
-		<li><a href="level1/variation02.html">Level 1.2</a></li>
-		<li><a href="level1/variation03.html">Level 1.3</a></li>
-		<li><a href="level1/variation04.html">Level 1.4</a></li>
-		<li><a href="level1/variation05.html">Level 1.5</a></li>
-		<BLOCKQUOTE>
-			<li><a href="variation06.html">Level 2.1</a></li>
-			<li><a href="variation07.html">Level 2.2</a></li>
-			<li><a href="variation08.html">Level 2.3</a></li>
-			<li><a href="variation09.html">Level 2.4</a></li>
-			<li><a href="variation10.html">Level 2.5</a></li>
-			<BLOCKQUOTE>
-				<li><a href="variation11.html">Level 3.1</a></li>
-				<li><a href="variation12.html">Level 3.2</a></li>
-				<li><a href="variation13.html">Level 3.3</a></li>
-				<li><a href="variation14.html">Level 3.4</a></li>
-				<li><a href="variation15.html">Level 3.5</a></li>
-				<BLOCKQUOTE>
-					<li><a href="variation16.html">Level 4.1</a></li>
-					<li><a href="variation17.html">Level 4.2</a></li>
-					<li><a href="variation18.html">Level 4.3</a></li>
-					<li><a href="variation19.html">Level 4.4</a></li>
-					<li><a href="variation20.html">Level 4.5</a></li>
-					<BLOCKQUOTE>
-						<li><a href="variation21.html">Level 5.1</a></li>
-						<li><a href="variation22.html">Level 5.2</a></li>
-						<li><a href="variation23.html">Level 5.3</a></li>
-						<li><a href="variation24.html">Level 5.4</a></li>
-						<li><a href="variation25.html">Level 5.5</a></li>
-					</BLOCKQUOTE>
-				</BLOCKQUOTE>
-			</BLOCKQUOTE>
-		</BLOCKQUOTE>
-	</ol>
-</main>
+<div id="footercontainer">
+
+	<div class="navigation">
+  		<ul>
+    	<li><a href="">DO IT NOW</a>
+      		<ul>
+      		<li><a href="level1">LEVEL 1</a>
+				<ul>
+				<li><a href="level1/variation01">01</a></li>
+				<li><a href="level1/variation02">02</a></li>
+				<li><a href="level1/variation03">03</a></li>
+				<li><a href="level1/variation04">04</a></li>
+				<li><a href="level1/variation05">05</a></li>
+				</ul>
+			</li>
+			<br>
+			<li><a href="level2">LEVEL 2</a>
+				<ul>
+				<li><a href="level2/variation06">06</a></li>
+				<li><a href="level2/variation07">07</a></li>
+				<li><a href="level2/variation08">08</a></li>
+				<li><a href="level2/variation09">09</a></li>
+				<li><a href="level2/variation10">10</a></li>
+				</ul>
+			</li>
+			<br>
+			<li><a href="#=level3">LEVEL 3</a>
+				<ul>
+				<li><a href="level3/variation11">11</a></li>
+				<li><a href="level3/variation12">12</a></li>
+				<li><a href="level3/variation13">13</a></li>
+				<li><a href="level3/variation14">14</a></li>
+				<li><a href="level3/variation15">15</a></li>
+				</ul>
+			</li>
+			<br>
+			<li><a href="level4">LEVEL 4</a>
+				<ul>
+				<li><a href="level4/variation16">16</a></li>
+				<li><a href="level4/variation17">17</a></li>
+				<li><a href="level4/variation18">18</a></li>
+				<li><a href="level4/variation19">19</a></li>
+				<li><a href="level4/variation20">20</a></li>
+				</ul>
+			</li>
+			<br>
+			<li><a href="level5">LEVEL 5</a>
+				<ul>
+				<li><a href="level5/variation21">21</a></li>
+				<li><a href="level5/variation22">22</a></li>
+				<li><a href="level5/variation23">23</a></li>
+				<li><a href="level5/variation24">24</a></li>
+				<li><a href="level5/variation25">25</a></li>
+				</ul>
+			</li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+</div>
 </body>
 
 </html>
