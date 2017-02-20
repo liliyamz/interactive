@@ -33,9 +33,12 @@ main{
 }
 
 .footertitle a:visted {
-  color: blue;
+  color: red;
 }
 
+.footertitle a:active {
+  color: black;
+}
 
 
 .nav-left {
