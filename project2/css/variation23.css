@@ -4,7 +4,22 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
+
+body {
+  animation: colorchange 40s linear infinite;
+}
+
+@keyframes colorchange
+{
+  0%   {background: white;}
+  25%  {background: yellow;}
+  50%  {background: pink;}
+  75%  {background: cyan;}
+  100% {background: white;}
+}
+
 
 #overtext{
 	display: block;
