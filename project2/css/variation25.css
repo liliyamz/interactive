@@ -1,4 +1,4 @@
-.container{
+/*.container{
 	width: 50px;
 	height: auto;
 	border: 2px solid #000000;
@@ -12,5 +12,100 @@
 	font-family: Space Mono, monospace;
     font-weight: normal;
     font-size: 20px;
+    line-height: 1.4;
+}*/
+
+
+
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(360deg); }
+}
+
+.cube {
+	animation: spin 30s infinite linear;
+}
+
+@keyframes spinreverse {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(-360deg); }
+}
+
+.cube:hover {
+	animation: spinreverse 30s infinite linear;
+}
+
+
+.wrap {
+	perspective: 800px;
+	perspective-origin: 50% 200px;
+}
+
+.cube {
+	position: relative;
+	top:50px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	transform-style: preserve-3d;
+}
+
+.cube div {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.back {
+	text-align: center;
+	transform: translateZ(-200px) rotateY(180deg);
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.right {
+	text-align: center;
+	transform: rotateY(-270deg) translateX(200px);
+	transform-origin: top right;
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.left {
+	text-align: center;
+	transform: rotateY(270deg) translateX(-200px);
+	transform-origin: center left;
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.top {
+	text-align: center;
+	transform: rotateX(-90deg) translateY(-200px);
+	transform-origin: top center;
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.bottom {
+	text-align: center;
+	transform: rotateX(90deg) translateY(200px);
+	transform-origin: bottom center;
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.front {
+	text-align: center;
+	transform: translateZ(200px);
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
     line-height: 1.4;
 }
