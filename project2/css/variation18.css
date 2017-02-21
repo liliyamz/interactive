@@ -10,10 +10,14 @@
 .text1{
 	font-family: 'droit sans mono', monospace;
 	font-weight: normal;
-	font-style: oblique;
+	font-style: normal;
     font-size: 20px;
     line-height: 1.7;
     letter-spacing: 10px;
+}
+
+.text1:hover{
+	font-weight: bolder;
 }
 
 .text2{
@@ -24,10 +28,18 @@
     letter-spacing: 10px;
 }
 
+.text2:hover{
+	font-weight: bolder;
+}
+
 .text3{
 	font-family: 'roboto mono', monospace;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
     line-height: 1.7;
     letter-spacing: 10px;
+}
+
+.text3:hover{
+	font-weight: bolder;
 }

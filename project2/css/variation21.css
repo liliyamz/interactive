@@ -1,16 +1,73 @@
-.container{
-	width: 50px;
-	height: auto;
-	border: 2px solid #000000;
-	border-radius: 300px;
-	margin-top: 650px;
-	margin-bottom: 650px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 100px;
+.text{
+	font-family: 'space mono', monospace;
+	font-weight: normal;
+	font-style: normal;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
 
-	font-family: Space Mono, monospace;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.4;
+
+
+
+
+@keyframes hvr-pulse-grow {
+  to {
+    transform: scale(2);
+  }
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  animation-name: hvr-pulse-grow;
+  animation-duration: 0.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: red;
+  font-weight: bold;
+}
+
+
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  transform: scale(1.2) rotate(4deg);
+  color: chartreuse;
+  font-weight: bold;
+}
+
+
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(5) translateY(-15px);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  animation-name: hvr-pop;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  color: blue;
+  font-weight: bold;
 }
