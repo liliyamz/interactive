@@ -1,6 +1,32 @@
-.section1 {
-  position: sticky;
-  float: right;
-  right: 20px;
-  top: 20px;
+.menu {
+	position: fixed;
+	margin-top: 100px;
+  	margin-left: 25%;
+  	padding: 20px;
+  	border: 2px solid black;
+  	z-index: 50;
+}
+
+.cleft{
+	display: inline-block;
+	margin-right: 4%;
+	height: auto;
+	width: 44%;
+}
+
+.cright{
+	display: inline-block;
+	margin-left: 4%;
+	height: auto;
+	width: 44%;
+}
+
+.container{
+	display: inline-block;
+	width: 100%;
+	border: 2px solid black;
+	position: relative;
+	margin-top: 100px;
+	padding: 20px;
+	padding-left: 40px;
 }

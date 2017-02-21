@@ -4,8 +4,6 @@ main{
   margin-right: 40px;
 }
 
-main a:visited{color:red;}
-
 #footercontainer{
     position: fixed;
     margin-left: 30px;
@@ -15,6 +13,7 @@ main a:visited{color:red;}
     color: black;
     font-size: 12px;
     line-height: 1em;
+    z-index: 1000;
 }
 
 #footercontainer .footertitle{

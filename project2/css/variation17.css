@@ -1,0 +1,13 @@
+.text{
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 15px;
+
+    text-align: none;
+}
+
+.text:hover{
+	text-transform: lowercase;
+}

@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+#content {
+    height: 100%;
+}
+#left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.4em;
+
+    font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: right;
+}
+#right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.4em;
+
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: left;
+}

@@ -1,38 +1,194 @@
-/*body{
-		max-width: 30px;
-		max-height: 20px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0px;
-		margin-bottom: auto;
-		overflow: auto;
-	}*/
-
-/*.container{
-	width: 170px;
-	height: auto;
-  border: 2px dashed #000000;
-  border-radius: 300px;
-  margin-top: 650px;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 100px;
-}*/
-.section1 {
+.line {
   display: inline-block;
-  margin: 0 1.5%;
-  width: 100%;
+  margin: .5% 0.5%;
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+  min-width: 0;
+  padding-bottom: 5px;
+  border-bottom: 2px dotted #000000;
 }
 
-.section6 {
+.word {
   display: inline-block;
-  margin: 0 1%;
-  width: 13%;
+  margin: .5% 0.5%;
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+  min-width: 0;
+  border: 2px dotted #000000;
+  padding: 10px;
 }
 
-.section3 {
-  display: inline-block;
-  margin: 0 1.5%;
-  width: 30%;
+.word.rd:hover ~ .word.rd {
+    border: 2px solid red;;
+}
+
+.word.this:hover ~ .word.this{
+    border: 2px solid red;;
+}
+
+.word.wd:hover ~ .word.wd {
+    border: 2px solid red;;
+}
+
+.word.then:hover ~ .word.then {
+    border: 2px solid red;;
+}
+
+.word.next:hover ~ .word.next {
+    border: 2px solid red;;
+}
+
+.word.now:hover ~ .word.now {
+    border: 2px solid red;;
+}
+
+.word.see:hover ~ .word.see {
+    border: 2px solid red;;
+}
+
+.word.one:hover ~ .word.one {
+    border: 2px solid red;;
+}
+
+.word.and:hover ~ .word.and {
+    border: 2px solid red;;
+}
+
+.word.again:hover ~ .word.again {
+    border: 2px solid red;;
+}
+
+.word.look:hover ~ .word.look {
+    border: 2px solid red;;
+}
+
+.word.at:hover ~ .word.at {
+    border: 2px solid red;;
+}
+
+.word.three:hover ~ .word.three{
+    border: 2px solid red;;
+}
+
+.word.here:hover ~ .word.here{
+    border: 2px solid red;;
+}
+
+.word.too:hover ~ .word.too{
+    border: 2px solid red;;
+}
+
+.word.take:hover ~ .word.take{
+    border: 2px solid red;;
+}
+
+.word.in:hover ~ .word.in{
+    border: 2px solid red;;
+}
+
+.word.five:hover ~ .word.five{
+    border: 2px solid red;;
+}
+
+.word.so:hover ~ .word.so{
+    border: 2px solid red;;
+}
+
+.word.do:hover ~ .word.do{
+    border: 2px solid red;;
+}
+
+.word.it:hover ~ .word.it{
+    border: 2px solid red;;
+}
+
+.word.glance:hover ~ .word.glance{
+    border: 2px solid red;;
+}
+
+.word.a:hover ~ .word.a{
+    border: 2px solid red;;
+}
+
+
+.line.hold:hover ~ .line.hold{
+    border-bottom: 2px solid red;;
+}
+
+.line.this:hover ~ .line.this{
+    border-bottom: 2px solid red;;
+}
+
+.line.ln:hover ~ .line.ln{
+    border-bottom: 2px solid red;;
+}
+
+.line.in:hover ~ .line.in{
+    border-bottom: 2px solid red;;
+}
+
+.line.another:hover ~ .line.another{
+    border-bottom: 2px solid red;;
+}
+
+.line.and:hover ~ .line.and{
+    border-bottom: 2px solid red;;
+}
+
+.line.a:hover ~ .line.a{
+    border-bottom: 2px solid red;;
+}
+
+.line.three:hover ~ .line.three{
+    border-bottom: 2px solid red;;
+}
+
+.line.view:hover ~ .line.view{
+    border-bottom: 2px solid red;;
+}
+
+.line.spot:hover ~ .line.spot{
+    border-bottom: 2px solid red;;
+}
+
+.line.seven:hover ~ .line.seven{
+    border-bottom: 2px solid red;;
+}
+
+.line.at:hover ~ .line.at{
+    border-bottom: 2px solid red;;
+}
+
+.line.one:hover ~ .line.one{
+    border-bottom: 2px solid red;;
+}
+
+.line.two:hover ~ .line.two{
+    border-bottom: 2px solid red;;
+}
+
+.line.then:hover ~ .line.then{
+    border-bottom: 2px solid red;;
+}
+
+.line.four:hover ~ .line.four{
+    border-bottom: 2px solid red;;
+}
+
+.line.time:hover ~ .line.time{
+    border-bottom: 2px solid red;;
+}
+
+.line.five:hover ~ .line.five{
+    border-bottom: 2px solid red;;
+}
+
+.line.six:hover ~ .line.six{
+    border-bottom: 2px solid red;;
+}
+
+.line.eight:hover ~ .line.eight{
+    border-bottom: 2px solid red;;
 }

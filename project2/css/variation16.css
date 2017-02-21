@@ -1,26 +1,32 @@
-/*body{
-		max-width: 30px;
-		max-height: 20px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0px;
-		margin-bottom: auto;
-		overflow: auto;
-	}*/
-
 .container{
-	width: 50px;
+	display: inline-block;
+	width: auto;
 	height: auto;
 	border: 2px solid #000000;
-	border-radius: 300px;
-	margin-top: 650px;
-	margin-bottom: 650px;
+	border-radius: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 100px;
 
 	font-family: Space Mono, monospace;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.4;
+}
+
+.container.verb{
+	font-weight: normal;
+    font-size: 90px;
+}
+
+.container.noun{
+	font-weight: normal;
+    font-size: 180px;
+}
+
+.container.huge{
+	font-weight: italic;
+    font-size: 250px;
+    text-align: center;
+}
+
+.container:hover{
+	border: 15px solid #000000;
 }

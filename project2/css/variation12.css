@@ -1,21 +1,15 @@
-/*body{
-		max-width: 30px;
-		max-height: 20px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0px;
-		margin-bottom: auto;
-		overflow: auto;
-	}*/
-
 .container{
-	width: 50px;
+	width: 0;
 	height: auto;
-	border: 2px dashed #000000;
-	border-radius: 300px;
+	border: 100px inset yellow;
+	border-radius: 0px;
 	margin-top: 650px;
 	margin-bottom: 650px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 100px;
+	padding-right: 0px;
+}
+
+.container:hover{
+	border: 100px outset yellow;
 }

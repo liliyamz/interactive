@@ -1,19 +1,21 @@
 body{
 	position: relative;
-	width: 7050px;
+	width: 8100px;
 	overflow: auto;
 }
 
 .container{
-	width: 5100px;
-	height: 1 px;
-	border: 2px dashed #000000;
-	border-radius: 300px;
-	padding: 50px;
+	width: 5050px;
+	height: 1em;
+	border: 200px ridge red;
+	border-radius: 500px;
+	padding: 1em;
 
 	position: absolute;
 	top:50%
 	left:50%;
 
-	margin: 300px 0 0 1000px;
+	margin: 140px 0 0 1300px;
 }
+
+.container:hover{border: 200px groove red;}

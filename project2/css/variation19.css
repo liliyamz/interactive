@@ -1,0 +1,33 @@
+.title{
+	width: 92%;
+	position: fixed;
+	top:10%;
+	margin:auto;
+	
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 400px;
+    text-align: center;
+    line-height: 1.5;
+
+    overflow-x: scroll;
+    white-space:nowrap
+}
+
+.container{
+	width: 50px;
+	height: auto;
+	border: 2px solid #000000;
+	border-radius: 300px;
+	margin-top: 650px;
+	margin-bottom: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 100px;
+
+	font-family: Space Mono, monospace;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+}
