@@ -1,6 +1,6 @@
 body{
 	position: relative;
-	width: 8100px;
+	width: 7800px;
 	overflow: auto;
 }
 
@@ -15,7 +15,7 @@ body{
 	top:50%
 	left:50%;
 
-	margin: 140px 0 0 1300px;
+	margin: 80px 0 0 1100px;
 }
 
 .container:hover{border: 200px groove red;}
