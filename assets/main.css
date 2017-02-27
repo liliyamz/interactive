@@ -28,15 +28,3 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
-#outerCircleText {
-	font-style: normal;
-	font-weight: bold;
-	font-family: 'Libre Franklin', sans-serif;
-	color: white;
-	-webkit-text-stroke: 3px black;
-
-	position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
-	#outerCircleText div {position: relative;}
-	#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;
-}
