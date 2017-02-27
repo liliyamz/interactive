@@ -1,0 +1,27 @@
+.canvas-1 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: none;
+	position: relative;
+	padding: 45px;
+}
+
+.canvas-2 {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	background: none;
+	position: relative;
+	padding: 40px;
+}
+
+.canvas-3 {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	background: none;
+	position: relative;
+	margin-top: 0px;
+	padding: 45px;
+}

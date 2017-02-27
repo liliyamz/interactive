@@ -1,0 +1,84 @@
+.canvas-1a {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: relative;
+	padding: 0px;
+}
+
+.canvas-1b {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	position: relative;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.canvas-1c {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	position: relative;
+	margin-left: 0px;
+	padding: px;
+}
+
+.canvas-2a {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	background: yellow;
+	position: relative;
+	padding: 40px;
+}
+
+.canvas-2b {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	background: yellow;
+	position: relative;
+	padding: 40px;
+}
+
+.canvas-2c {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	background: yellow;
+	position: relative;
+	padding: 40px;
+}
+
+.canvas-3a {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	background: yellow;
+	position: relative;
+	padding: 45px;
+}
+
+.canvas-3b {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	background: yellow;
+	position: relative;
+	margin-left: 0px;
+	padding: 45px;
+}
+
+.canvas-3c {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	background: yellow;
+	position: relative;
+	margin-left: 0px;
+	padding: 45px;
+}
