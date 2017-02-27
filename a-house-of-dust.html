@@ -16,7 +16,8 @@
 		/* You can change the colors, font, and so on below */
 
 		body {
-			margin: 75px;
+			margin-top: 100px;
+			margin-left: 75px;
 			color: yellow;
 			font-size: 60px;
 			text-transform: lowercase;
@@ -27,24 +28,42 @@
 
 		.button-container {
 			position: fixed;
-			top: 0px;
-			left: 75px;
 		}
 
-		.list-one {
+			#b1 {
+				margin-top: -1em;
+				margin-left: 6em;
+			}
 
+			#b2 {
+				margin-top: 1.4em;
+				margin-left: 4em;
+			}
+
+			#b3 {
+				margin-top: 3.8em;
+				margin-left: 2em;
+			}
+
+			#b4 {
+				margin-top: 6.2em;
+				margin-left: 0em;
+			}
+
+		.list-one {
+			text-indent: 6em;
 		}
 
 		.list-two {
-			text-indent: 2em;
-		}
-
-		.list-three {
 			text-indent: 4em;
 		}
 
+		.list-three {
+			text-indent: 2em;
+		}
+
 		.list-four {
-			text-indent: 6em;
+			text-indent: 0em;
 		}
 
 	</style>
@@ -187,8 +206,17 @@
 	<!--
 	This is the button.
 	-->
-	<div class="button-container">
-		<button>Click Me!</button>
+	<div class="button-container" id="b1">
+		<button>Regenerate</button>
+	</div>
+	<div class="button-container" id="b2">
+		<button>Regenerate</button>
+	</div>
+	<div class="button-container" id="b3">
+		<button>Regenerate</button>
+	</div>
+	<div class="button-container" id="b4">
+		<button>Regenerate</button>
 	</div>
 
 	<!--
@@ -203,8 +231,11 @@
 	in the code below.
 	-->
 	<div class="list-one"></div>
+	<br>
 	<div class="list-two"></div>
+	<br>
 	<div class="list-three"></div>
+	<br>
 	<div class="list-four"></div>
 
 </body>
