@@ -1,1 +1,10 @@
 /* Put your CSS here! */
+body {
+      margin: 75px;
+      color: black;
+      font-family: "Courier New", Arnhem, monospace;
+      background-color: white;
+      background-image: url("https://media.giphy.com/media/Ro8qIQxBhf8Qg/giphy.gif");
+      background-position: 50% 50%;
+      background-repeat: repeat-y;
+    }
