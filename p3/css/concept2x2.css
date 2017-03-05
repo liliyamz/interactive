@@ -1,3 +1,100 @@
+.animatemove{
+    animation: amove 12s linear infinite;
+}
+
+@keyframes amove
+    {
+    0%   {transform: translate(0px, 0);}
+    50%	  {transform: translate(1000px, 0);}
+    100%   {transform: translate(0px, 0);}
+    }
+
+.animatescale{
+    animation: ascale 12s linear infinite;
+}
+
+@keyframes ascale
+    {
+    0%   {transform: scale(0, 1); transform-origin: 0% 0%;}
+    50%	  {transform: scale(10, 1); transform-origin: 0% 0%;}
+    100%   {transform: scale(0, 1); transform-origin: 0% 0%;}
+    }
+
+/*transform*/
+.moveleft10 {
+	transform: translate(-10px, 0px);
+}
+
+.moveright10 {
+	transform: translate(10px, 0px);
+}
+
+.moveright25hf {
+	transform: translate(12.5px, 0px);
+}
+
+.moveright25 {
+	transform: translate(25px, 0px);
+}
+
+.moveright50 {
+	transform: translate(50px, 0px);
+}
+
+.moveright100 {
+	transform: translate(100px, 0px);
+}
+
+.moveup10 {
+	transform: translate(0px, -10px);
+}
+
+.moveup25 {
+	transform: translate(0px, -25px);
+}
+
+.moveup50 {
+	transform: translate(0px, -50px);
+}
+
+.movedown10 {
+	transform: translate(0px, 10px);
+}
+
+.movedown25 {
+	transform: translate(0px, 25px);
+}
+
+.movedown50 {
+	transform: translate(0px, 50px);
+}
+
+.movedown100 {
+	transform: translate(0px, 100px);
+}
+
+.scaleh2 {
+	transform-origin: 0% 0%;
+	transform: scale(2, 1);
+}
+
+.scaleh10 {
+	transform-origin: 0% 0%;
+	transform: scale(10, 1);
+}
+
+.scalev2 {
+	transform-origin: 0% 0%;
+	transform: scale(1, 2);
+}
+
+.scalev10 {
+	transform-origin: 0% 0%;
+	transform: scale(1, 10);
+}
+
+/*Components*/
+
 .circle-tl {
     width: 80px;
     height: 80px;
@@ -11,41 +108,6 @@
     position: absolute;
 }
 
-	#tl1 {
-	    margin-top: 0px;
-	    margin-left: 0px;
-	}
-
-	#tl1- {
-	    margin-top: 0px;
-	    margin-left: 20px;
-	}
-
-	#tl2 {
-	    margin-top: 0px;
-	    margin-left: 100px;
-	}
-
-	#tl2- {
-	    margin-top: 0px;
-	    margin-left: 120px;
-	}
-
-	#tl3 {
-	    margin-top: 100px;
-	    margin-left: 0px;
-	}
-
-	#tl3- {
-	    margin-top: 100px;
-	    margin-left: 20px;
-	}
-
-	#tl4 {
-	    margin-top: 100px;
-	    margin-left: 100px;
-	}
-
 .circle-tr {
     width: 80px;
     height: 80px;
@@ -54,47 +116,9 @@
     border-bottom: 0;
     border-left: 0;
     position: absolute;
+    margin-top: 0px;
+	margin-left: 0px;
 }
-
-	#tr1 {
-	    margin-top: 0px;
-	    margin-left: 0px;
-	}
-
-	#tr1- {
-	    margin-top: 0px;
-	    margin-left: 20px;
-	}
-
-	#tr2 {
-	    margin-top: 0px;
-	    margin-left: 100px;
-	}
-
-	#tr2- {
-	    margin-top: 0px;
-	    margin-left: 120px;
-	}
-
-	#tr3 {
-	    margin-top: 100px;
-	    margin-left: 0px;
-	}
-
-	#tr3- {
-	    margin-top: 100px;
-	    margin-left: 20px;
-	}
-
-	#tr4 {
-	    margin-top: 100px;
-	    margin-left: 100px;
-	}
-
-	#tr4- {
-	    margin-top: 90px;
-	    margin-left: 100px;
-	}
 
 .circle-bl {
     width: 80px;
@@ -104,42 +128,9 @@
     border-top: 0;
     border-right: 0;
     position: absolute;
+    margin-top: 0px;
+	margin-left: 0px;
 }
-
-	#bl1 {
-	    margin-top: 0px;
-	    margin-left: 0px;
-	}
-
-	#bl1- {
-	    margin-top: 0px;
-	    margin-left: 20px;
-	}
-
-	#bl2 {
-	    margin-top: 0px;
-	    margin-left: 100px;
-	}
-
-	#bl2- {
-	    margin-top: 0px;
-	    margin-left: 120px;
-	}
-
-	#bl3 {
-	    margin-top: 100px;
-	    margin-left: 0px;
-	}
-
-	#bl3- {
-	    margin-top: 100px;
-	    margin-left: 20px;
-	}
-
-	#bl4 {
-	    margin-top: 100px;
-	    margin-left: 100px;
-	}
 
 .circle-br {
     width: 80px;
@@ -149,128 +140,134 @@
     border-top: 0;
     border-left: 0;
     position: absolute;
-}
-
-	#br1 {
-	    margin-top: 0px;
-	    margin-left: 0px;
-	}
-
-	#br1- {
-	    margin-top: 0px;
-	    margin-left: 20px;
-	}
-
-	#br2 {
-	    margin-top: 0px;
-	    margin-left: 100px;
-	}
-
-	#br2- {
-	    margin-top: 0px;
-	    margin-left: 120px;
-	}
-
-	#br3 {
-	    margin-top: 100px;
-	    margin-left: 0px;
-	}
-
-	#br3- {
-	    margin-top: 100px;
-	    margin-left: 20px;
-	}
-
-	#br4 {
-	    margin-top: 100px;
-	    margin-left: 100px;
-	}
-
-.line-vl {
-	width: 20px;
-	height: 200px;
-	background: black;
-	position: absolute;
+    margin-top: 0px;
 	margin-left: 0px;
 }
 
-	#vl1 {
-		transform-origin: 0% 0%;
-		transform: scale(1, 0.5);
-	}
-
-.line-vm {
+.line-v {
 	width: 20px;
 	height: 100px;
 	background: black;
 	position: absolute;
-	margin-left: 100px;
+	margin-left: 0px;
+	margin-top: 0px;
 }
 
-.line-vr {
-	width: 20px;
-	height: 200px;
-	background: black;
-	position: absolute;
-	margin-left: 180px;
-}
-
-	#vr0{
-		transform-origin: 0% 100%;
-		transform: scale(1, 0.05);
-	}
-
-.line-ht {
-	width: 200px;
+.line-h {
+	width: 100px;
 	height: 20px;
 	background: black;
 	position: absolute;
 	margin-top: 0px;
+	margin-left: 0px;
 }
 
-	#ht1l {
-			transform-origin: 0% 100%;
-			transform: scale(0.5, 1);
-		}
 
-	#ht1r {
-			transform-origin: 100% 0%;
-			transform: scale(0.5, 1);
-		}
 
-.line-hm {
-	width: 200px;
+.punct-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    border: 20px solid black;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-circle-br {
+    width: 5px;
+    height: 5px;
+    border-bottom-right-radius: 25px;
+    border: 20px solid black;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-circle-l-t {
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 20px solid black;
+    border-bottom: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-circle-l-tl {
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border: 20px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-circle-l-tr {
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 50px;
+    border: 20px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-circle-l-bl {
+    width: 30px;
+    height: 30px;
+    border-bottom-left-radius: 50px;
+    border: 20px solid black;
+    border-top: 0;
+    border-right: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-circle-l-br {
+    width: 30px;
+    height: 30px;
+    border-bottom-right-radius: 50px;
+    border: 20px solid black;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.punct-line-v {
+	width: 20px;
+	height: 50px;
+	background: black;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.punct-line-h {
+	width: 50px;
 	height: 20px;
 	background: black;
 	position: absolute;
-	margin-top: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
-	#hm1l- {
-		transform-origin: 0% 0%;
-		transform: scale(0.5, 1);
-		margin-left: 10px;
-	}
-
-.line-hb {
-	width: 200px;
-	height: 20px;
-	background: black;
-	position: absolute;
-	margin-top: 180px;
-}
-
-	#hb1l {
-			transform-origin: 0% 100%;
-			transform: scale(0.5, 1);
-		}
-
-	#hb1r {
-			transform-origin: 100% 0%;
-			transform: scale(0.5, 1);
-		}
-
-	#hb2 {
-			transform-origin: 0% 0%;
-			transform: scale(0.9, 1);			
-		}

@@ -1,3 +1,21 @@
+.circlebg{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    /*background: radial-gradient(red 5%, white 50%);*/
+    background: white;
+    animation: shift 5s infinite;
+    z-index: -100;
+}
+
+@keyframes shift
+    {
+    0%   {background:white;}
+    50%  {background:black;}
+    100%   {background:white;}
+    }
+
+
 .f-circle {
 	width: 180px;
     height: 180px;
