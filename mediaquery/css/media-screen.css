@@ -4,7 +4,7 @@ body { background: url('../assets/pose1.jpg');}
 	display: inline-block;
 
 	font-family: Gill Sans, sans-serif;
-	font-size: 450pt;
+	font-size: 400pt;
 	margin-top: -70px;
 }
 
@@ -12,7 +12,7 @@ body { background: url('../assets/pose1.jpg');}
 @media screen and (max-width: 1000px) {
   body { background: url('../assets/pose2.jpg')}
   .text {
-  	font-size: 400pt;
+  	font-size: 300pt;
   	color: red;
   	margin-top: -50px;
   }
@@ -21,7 +21,7 @@ body { background: url('../assets/pose1.jpg');}
 @media screen and (max-width: 768px) {
   body { background: url('../assets/pose3.jpg');}
   .text {
-  	font-size: 300pt;
+  	font-size: 225pt;
   	color: blue;
   	margin-top: -30px;
   }
@@ -30,7 +30,7 @@ body { background: url('../assets/pose1.jpg');}
 @media screen and (max-width: 600px) {
   body { background: url('../assets/pose4.jpg');}
   .text {
-  	font-size: 200pt;
+  	font-size: 150pt;
   	color: chartreuse;
   	margin-top: -10px;
   }
