@@ -20,6 +20,30 @@
 	padding: 45px;
 }
 
+.canvas-var-1 {
+	float: left;
+	/*display: inline-flex;*/
+	min-width: 200px;
+	width: auto;
+	min-height: 200px;
+	height: auto;
+	background: none;
+	position: relative;
+	padding: 0px;
+}
+
+.canvas-var-1- {
+	float: left;
+	/*display: inline-flex;*/
+	min-width: 100px;
+	width: auto;
+	min-height: 200px;
+	height: auto;
+	background: none;
+	position: relative;
+	padding: 0px;
+}
+
 .canvas-2 {
 	display: inline-block;
 	width: 210px;
