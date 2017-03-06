@@ -1,12 +1,19 @@
-body { background: url('../assets/pose1.jpg');}
+body { 
+	background-image: url('../assets/pose1.jpg');
+	z-index: -10;
+	background-color: white;
+	background-blend-mode: multiply;
+}
 
 .text {
 	font-family: Gill Sans, sans-serif;
 	font-size: 30vw;
+	color: black;
+	z-index: 10;
 }
 
 .flash {
-  animation: flashing 1s linear infinite;
+  animation: flashing 10000000000s linear;
 }
 
 @keyframes flashing { 
@@ -17,52 +24,48 @@ body { background: url('../assets/pose1.jpg');}
 }
 
 
+
 @media screen and (max-width: 1000px) {
-  body { background: url('../assets/pose2.jpg')}
-  .text {
-  	color: red;
-  }
+  body { background-image: url('../assets/pose2.jpg');
+	background-color:yellow;}
   .flash {
-  animation: flashing 0.8s linear infinite;
-}
+  animation: flashing 1.2s linear infinite;
+	}
+	.text {color:blue;}
 }
 
 @media screen and (max-width: 768px) {
-  body { background: url('../assets/pose3.jpg');}
-  .text {
-  	color: blue;
-  }
+  body { background: url('../assets/pose3.jpg');
+	background-color: orange;}
   .flash {
-  animation: flashing 0.6s linear infinite;
-}
+  animation: flashing 1s linear infinite;
+	}
+	.text {color: cyan;}
 }
 
 @media screen and (max-width: 600px) {
-  body { background: url('../assets/pose4.jpg');}
-  .text {
-  	color: chartreuse;
-  }
+  body { background: url('../assets/pose4.jpg');
+background-color: magenta;}
   .flash {
-  animation: flashing 0.4s linear infinite;
-}
+  animation: flashing 0.8s linear infinite;
+	}
+	.text {color: chartreuse;}
 }
 
 @media screen and (max-width: 480px) {
-  body { background: url('../assets/pose5.jpg');}
-  .text {
-  	color: cyan;
-  }
+  body { background: url('../assets/pose5.jpg');
+background-color: cyan;}
   .flash {
-  animation: flashing 0.2s linear infinite;
-}
+  animation: flashing 0.6s linear infinite;
+	}
+	.text {color: orange;}
 }
 
 @media screen and (max-width: 320px) {
-  body { background: url('../assets/pose6.jpg');}
-  .text {
-  	color: magenta;
-  }
+  body { background: url('../assets/pose6.jpg');
+background-color: blue;}
   .flash {
-  animation: flashing 0.1s linear infinite;
-}
+  animation: flashing 0.4s linear infinite;
+	}
+	.text {color: yellow;}
 }
