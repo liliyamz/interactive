@@ -4,7 +4,7 @@ body { background: url('../assets/pose1.jpg');}
 	display: inline-block;
 
 	font-family: Gill Sans, sans-serif;
-	font-size: 400pt;
+	font-size: 360pt;
 	margin-top: -70px;
 }
 
@@ -12,7 +12,7 @@ body { background: url('../assets/pose1.jpg');}
 @media screen and (max-width: 1000px) {
   body { background: url('../assets/pose2.jpg')}
   .text {
-  	font-size: 300pt;
+  	font-size: 275pt;
   	color: red;
   	margin-top: -50px;
   }
