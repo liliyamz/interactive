@@ -1,0 +1,54 @@
+body { background: url('../assets/pose1.jpg');}
+
+.text {
+	font-family: Gill Sans, sans-serif;
+	font-size: 250pt;
+	text-align: center;
+	margin-top: 10%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  body { background: url('../assets/pose2.jpg')}
+  .text {
+  	font-size: 200pt;
+  	color: red;
+  	margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body { background: url('../assets/pose3.jpg');}
+  .text {
+  	font-size: 150pt;
+  	color: blue;
+  	margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body { background: url('../assets/pose4.jpg');}
+  .text {
+  	font-size: 100pt;
+  	color: chartreuse;
+  	margin-top: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body { background: url('../assets/pose5.jpg');}
+  .text {
+  	font-size: 50pt;
+  	color: cyan;
+  	margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body { background: url('../assets/pose6.jpg');}
+  .text {
+  	font-size: 20pt;
+  	color: magenta;
+  	margin-top: 70%;
+  }
+}
