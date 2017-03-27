@@ -33,9 +33,9 @@ a:visited{
 }
 
 .letter {transform: scale(0.5, 0.5);
-	height: 70px;
+	height: 46px;
 	display: inline-block;
-	margin: 15px;
+	margin: -2.5px;
 }
 
 .space {
