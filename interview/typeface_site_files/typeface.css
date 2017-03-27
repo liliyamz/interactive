@@ -1,0 +1,1110 @@
+.letter-definition {
+	/*display: none;*/
+}
+
+.letter {
+	height: 100px;
+	display: inline-block;
+	margin: 8px;
+}
+
+.space {
+	width: 100px;
+	height: 100px;
+}
+
+
+.A {
+	width: 100px;
+	position: relative;
+}
+
+.lines-A {
+	background-image: url("A.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.A .vert {
+	width: 10px;
+	height: 100px;
+	background: black;
+	position: absolute;
+}
+
+.A .hor {
+	left: 5px;
+	top: 45px;
+	width: 50px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.A .tr {
+	left: 10px;
+	width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+}
+
+.A .bl {
+	left: 50px;
+	top: 50px;
+	width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 50px;
+    border: 10px solid black;
+    border-top: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+
+
+.B {
+	width: 100px;
+	position: relative;
+}
+
+.lines-B {
+	background-image: url("B.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.B .vert {
+	width: 10px;
+	height: 100px;
+	background: black;
+	position: absolute;
+}
+
+.B .hor1 {
+	top: 45px;
+	width: 50px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.B .hor2 {
+	top: 90px;
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.B .tr1 {
+	left: 10px;
+	width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+}
+
+.B .tr2 {
+	left: 50px;
+	top: 45px;
+	width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+}
+
+
+
+.C {
+	width: 100px;
+	position: relative;
+}
+
+.lines-C {
+	background-image: url("C-G.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.C .vert {
+	top: 45px;
+	width: 10px;
+	height: 50px;
+	background: black;
+	position: absolute;
+}
+
+.C .hor1 {
+	left: 50px;
+	width: 50px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.C .hor2 {
+	top: 90px;
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.C .tl {
+	width: 40px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+
+
+.D {
+	width: 100px;
+	position: relative;
+}
+
+.lines-D {
+	background-image: url("D.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.D .vert1 {
+	width: 10px;
+	height: 100px;
+	background: black;
+	position: absolute;
+}
+
+.D .vert2 {
+	left: 90px;
+	top: 50px;
+	width: 10px;
+	height: 50px;
+	background: black;
+	position: absolute;
+}
+
+.D .hor1 {
+	width: 50px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.D .hor2 {
+	top: 90px;
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.D .tr {
+	left: 50px;
+	width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+}
+
+
+
+.E {
+	width: 100px;
+	position: relative;
+}
+
+.lines-E {
+	background-image: url("E.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.E .left {
+	
+}
+
+.E .top {
+	
+}
+
+.E .middle {
+	
+}
+
+.E .bottom {
+	
+}
+
+
+
+.F {
+	width: 100px;
+	position: relative;
+}
+
+.lines-F {
+	background-image: url("F.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.F .left {
+	
+}
+
+.F .top {
+	
+}
+
+.F .middle {
+	
+}
+
+
+
+.G {
+	width: 100px;
+	position: relative;
+}
+
+.lines-G {
+	background-image: url("C-G.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.G .middle {
+	
+}
+
+.G .right {
+	
+}
+
+.G .top {
+	
+}
+
+
+
+.H {
+	width: 100px;
+	position: relative;
+}
+
+.lines-H {
+	background-image: url("H.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.H .left {
+	
+}
+
+.H .middle {
+	
+}
+
+.H .right {
+	
+}
+
+
+
+
+.I {
+	width: 100px;
+	position: relative;
+}
+
+.lines-I {
+	background-image: url("I.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.I .top {
+	
+}
+
+.I .middle {
+	
+}
+
+.I .bottom {
+	
+}
+
+
+
+.J {
+	width: 100px;
+	position: relative;
+}
+
+.lines-J {
+	background-image: url("J-U.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.J .right {
+	
+}
+
+.J .bottom {
+	
+}
+
+
+
+.K {
+	width: 100px;
+	position: relative;
+}
+
+.lines-K {
+	background-image: url("K.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.K .left {
+	
+}
+
+.K .top {
+	
+}
+
+.K .bottom {
+	
+}
+
+
+
+.L {
+	width: 100px;
+	position: relative;
+}
+
+.lines-L {
+	background-image: url("L.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+
+.L .left {
+	
+}
+
+.L .bottom {
+	
+}
+
+
+
+.M {
+	width: 100px;
+	position: relative;
+}
+
+.lines-M {
+	background-image: url("M.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.M .sides {
+	
+}
+
+.M .left {
+	
+}
+
+.M .right {
+	
+}
+
+
+
+.N {
+	width: 100px;
+	position: relative;
+}
+
+.lines-N {
+	background-image: url("N.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.N .sides {
+	
+}
+
+.N .middle {
+	
+}
+
+
+
+.O {
+	width: 100px;
+	position: relative;
+}
+
+.lines-O {
+	background-image: url("O-Q.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.O .middle {
+	
+}
+
+
+
+.P {
+	width: 100px;
+	position: relative;
+}
+
+.lines-P {
+	background-image: url("P-R.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.P .left {
+	
+}
+
+.P .top {
+	
+}
+
+
+
+.Q {
+	width: 100px;
+	position: relative;
+}
+
+.lines-Q {
+	background-image: url("O-Q.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.Q .middle {
+	
+}
+
+.Q .bottom {
+	
+}
+
+
+
+.R {
+	width: 100px;
+	position: relative;
+}
+
+.lines-R {
+	background-image: url("P-R.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+
+.R .left {
+	
+}
+
+
+.R .top {
+	
+}
+
+.R .bottom {
+	transform: skew(32deg,0);
+	position: absolute;
+	content: '';
+	bottom: -1px;
+	left: 62px;
+	width: 15px;
+	height: 65px;
+	background-color: #000000;
+}
+
+
+
+.S {
+	width: 100px;
+	position: relative;
+}
+
+.lines-S {
+	background-image: url("S.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.S .top-bar {
+	
+}
+
+.S .top {
+	
+}
+
+.S .bottom-bar {
+	
+}
+
+.S .bottom {
+	
+}
+
+
+
+.T {
+	width: 100px;
+	position: relative;
+}
+
+.lines-T {
+	background-image: url("I-T-7.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.T .top {
+	
+}
+
+.T .middle {
+	
+}
+
+
+
+.U {
+	width: 100px;
+	position: relative;
+}
+
+.lines-U {
+	background-image: url("J-U.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.U .top {
+	
+}
+
+.U .bottom {
+	
+}
+
+
+
+.V {
+	width: 100px;
+	position: relative;
+}
+
+.lines-V {
+	background-image: url("V.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.V .left {
+	
+}
+
+.V .right {
+	
+}
+
+
+
+.W {
+	width: 100px;
+	position: relative;
+}
+
+.lines-W {
+	background-image: url("W.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.W .sides {
+	
+}
+
+.W .left {
+	
+}
+
+.W .right {
+	
+}
+
+
+
+.X {
+	width: 100px;
+	position: relative;
+}
+
+.lines-X {
+	background-image: url("X.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.X .left {
+	
+}
+
+.X .right {
+	
+}
+
+
+
+.Y {
+	width: 100px;
+	position: relative;
+}
+
+.lines-Y {
+	background-image: url("Y.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
+.Y .left {
+	
+}
+
+.Y .right {
+	
+}
+
+.Y .bottom {
+	
+}
+
+
+
+.Z {
+	width: 100px;
+	position: relative;
+}
+
+.lines-Z {
+	background-image: url("Z.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.Z .top {
+	
+}
+
+.Z .middle {
+	
+}
+
+
+
+.one {
+	width: 100px;
+	position: relative;
+}
+
+.lines-one {
+	background-image: url("1.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.one .top {
+	
+}
+
+.one .middle {
+	
+}
+
+.one .bottom {
+	
+}
+
+
+
+.two {
+	width: 100px;
+	position: relative;
+}
+
+.lines-two {
+	background-image: url("2.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.two .top {
+	
+}
+
+.two .bottom {
+	
+}
+
+
+
+.three {
+	width: 100px;
+	position: relative;
+}
+
+.lines-three {
+	background-image: url("3.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.three .top{
+	
+}
+
+.three .bottom {
+	
+}
+
+
+
+.four {
+	width: 100px;
+	position: relative;
+}
+
+.lines-four {
+	background-image: url("4.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.four .left {
+	
+}
+
+.four .middle {
+
+}
+
+.four .right {
+
+}
+
+
+
+.five {
+	width: 100px;
+	position: relative;
+}
+
+.lines-five {
+	background-image: url("5.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.five .top {
+	
+}
+
+.five .left {
+	
+}
+
+.five .bottom {
+	
+}
+
+
+
+.six {
+	width: 100px;
+	position: relative;
+}
+
+.lines-six {
+	background-image: url("6.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.six .top {
+	
+}
+
+.six .bottom {
+	
+}
+
+
+
+.seven {
+	width: 100px;
+	position: relative;
+}
+
+.lines-seven {
+	background-image: url("7.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.seven .top {
+	
+}
+
+.seven .right {
+	
+}
+
+
+
+.eight {
+	width: 100px;
+	position: relative;
+}
+
+.lines-eight {
+	background-image: url("8.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.eight .top {
+	
+}
+
+.eight .bottom {
+	
+}
+
+
+
+.nine {
+	width: 100px;
+	position: relative;
+}
+
+.lines-nine {
+	background-image: url("9.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.nine .top {
+	
+}
+
+.nine .right {
+	
+}
+
+
+
+.zero {
+	width: 100px;
+	position: relative;
+}
+
+.lines-zero {
+	background-image: url("zero.png");
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.zero .left {
+	
+}
+
+.zero .right {
+	
+}
+
+
+.exclamation {
+	width: 112px;
+	position: relative;
+}
+
+.exclamation .middle {
+	width: 15px;
+	height: 190px;
+	left: 47px;
+	background-color: black;
+	position: absolute;
+}
+
+.exclamation .point {
+	width: 15px;
+	height: 15px;
+	left: 47px;
+	background-color: black;
+	position: absolute;
+	top: 205px;
+}
+
+.question {
+	width: 112px;
+	position: relative;
+}
+
+.lines-question {
+	background-image: url("question.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
+.question .top {
+	position: absolute;
+	width: 98px;
+	height: 123px;
+	border-color: black;
+	border-style: solid;
+	border-width:15px 15px 15px 0;
+	border-radius: 0 180% 220% 0 /0 180% 180% 0;
+}
+
+.question .left {
+	width: 15px;
+	height: 52px;
+	top: 138px;
+	background-color: black;
+	position: absolute;
+}
+
+.question .point {
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 205px;
+}
+
+.period {
+	width: 112px;
+	position: relative;
+}
+
+.period .point {
+	width: 15px;
+	height: 15px;
+	left: 47px;
+	background-color: black;
+	position: absolute;
+	top: 205px;
+}
+
+.quotes {
+	width: 112px;
+	position: relative;
+}
+
+.quotes .both {
+	top: -0.5px;
+	left: 0;
+	width: 15px;
+	height: 35px;
+	border-width: 0 15px 0 15px;
+	border-color:#000000;
+	border-style:solid;
+}
+
+.comma {
+	width: 112px;
+	position: relative;
+}
+
+.comma .one {
+	transform: skew(-27deg,0);
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 35px;
+	left: 47px;
+	background-color: black;
+}
