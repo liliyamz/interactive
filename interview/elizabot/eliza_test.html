@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+	<TITLE>Eliza Test</TITLE>
+	<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="elizabot.js"></SCRIPT>
+	<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="elizadata.js"></SCRIPT>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+// initialize with argument 'true': no random choices
+var eliza = new ElizaBot(true);
+
+var exampleLines= [
+"Men are all alike.",
+"They're always bugging us about something or other.",
+"Well, my boyfriend made me come here.",
+"He says I'm depressed much of the time.",
+"It's true. I am unhappy.",
+"I need some help, that much seems certain.",
+"Perhaps I could learn to get along with my mother.",
+"My mother takes care of me.",
+"My father.",
+"You are like my father in some ways.",
+"You are not very aggressive but I think you don't want me to notice that.",
+"You don't argue with me.",
+"You are afraid of me.",
+"My father is afraid of everybody.",
+"Bullies."
+];
+
+var exampleCursor=0;
+
+function elizaReset() {
+	open("index.html","_self")
+}
+
+function elizaNext() {
+	if (exampleCursor >= exampleLines.length) {
+		alert('End of conversation.\nClick "Talk to Eliza" to chat with Eliza yourself.');
+		return;
+	}
+	var userinput = exampleLines[exampleCursor++];
+	document.forms.eform.edisplay.value += 'USER:  ' + userinput + '\n';
+	document.forms.eform.edisplay.value += 'ELIZA: ' + eliza.transform(userinput) + '\n';
+}
+
+
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+
+<CENTER>
+<br>
+Sample Chat
+<TABLE BORDER="0" CELLSPACING="10" CELLPADDING="0">
+<FORM NAME="eform" onsubmit="return false">
+<TR VALIGN="top">
+<TD><TEXTAREA NAME="edisplay" COLS="60" ROWS="32"></TEXTAREA></TD>
+</TR>
+</FORM>
+</TABLE>
+<INPUT TYPE="button" VALUE="Next line" onclick="elizaNext()"><br><br><INPUT TYPE="reset" VALUE="Talk to Eliza" onclick="elizaReset(); return true">
+</CENTER>
+
+</BODY>
+</HTML>

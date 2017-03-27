@@ -1,8 +1,46 @@
 body{
-	font: 30px 'space mono', monospace;
+	background-color: white;
+	font: 30px 'big caslon', serif;
+	padding: 25px;
 }
 
-.quad1{
+main{
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+img.resize{
+   max-width:100%;
+   max-height:100%;
+}
+
+.ctr{
+	text-align: center;
+	height: 580px;
+	line-height: 580px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.indent{
+	padding-left: 50px;
+}
+
+.subtitle{
+	font-size: 16px;
+	font-style: italic;
+}
+
+.noscroll{
+	overflow: hidden;
+}
+
+.botname{
+	font-style: italic;
+}
+
+
+/*.quad1{
 	position: fixed;
 	width: 50%;
 	height: 50%;
@@ -41,14 +79,15 @@ body{
 	background-color: black;
 	z-index: -100;
 }
+*/
 
 a{
-	color: cyan;
-	text-decoration: none;
+	color: black;
+	text-decoration: underline;
 }
 
 a:hover{
-	color: white;
+	color: black;
 }
 
 a:visited{
@@ -56,24 +95,9 @@ a:visited{
 }
 
 a:active{
-	color: yellow;
+	color: red;
 }
 
 ul{
 	list-style-type: none
-}
-
-h1{
-	text-shadow: 2px 4px 4px rgb(50,50,50);
-	text-transform: uppercase;
-}
-
-h2{
-	text-shadow: 2px 4px 4px rgb(50,50,50);
-	text-transform: uppercase;
-}
-
-h3{
-	text-shadow: 2px 4px 4px rgb(50,50,50);
-	text-transform: capitalize;
 }
