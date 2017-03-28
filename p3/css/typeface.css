@@ -2131,19 +2131,19 @@ a:visited{
 
 
 .exclamation {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-exclamation {
 	background-image: url("exclamation.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .exclamation .vert {
-	left: 7.5px;
+	left: 45px;
 	width: 10px;
 	height: 50px;
 	background: black;
@@ -2152,6 +2152,7 @@ a:visited{
 
 .exclamation .circ {
 	top: 75px;
+	left: 37.5px;
 	width: 5px;
     height: 5px;
     border-radius: 12.5px;
@@ -2165,20 +2166,20 @@ a:visited{
 
 
 .question {
-	width: 25px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-question {
 	background-image: url("question.png");
 	background-size: 100%;
-	width: 25px;
+	width: 50px;
 	height: 50px;
 }
 
 .question .vert {
 	top: 25px;
-	left: 20px;
+	left: 45px;
 	width: 10px;
 	height: 25px;
 	background: black;
@@ -2187,7 +2188,7 @@ a:visited{
 
 .question .hor {
 	top: 25px;
-	left: 20px;
+	left: 45px;
 	width: 30px;
 	height: 10px;
 	background: black;
@@ -2195,6 +2196,7 @@ a:visited{
 }
 
 .question .top {
+	left: 25px;
 	width: 30px;
     height: 15px;
     border-top-left-radius: 25px;
@@ -2205,7 +2207,7 @@ a:visited{
 }
 
 .question .circ {
-	left: 12.5px;
+	left: 37.5px;
 	top: 75px;
 	width: 5px;
     height: 5px;
@@ -2220,18 +2222,19 @@ a:visited{
 
 
 .period {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-period{
 	background-image: url("period.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .period .circ {
+	left: 37.5px;
 	top: 75px;
 	width: 5px;
     height: 5px;
@@ -2246,19 +2249,20 @@ a:visited{
 
 
 .comma {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-comma{
 	background-image: url("comma.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .comma .br {
 	top: 75px;
+	left: 10px;
 	width: 15px;
     height: 15px;
     border-bottom-right-radius: 25px;
@@ -2275,18 +2279,19 @@ a:visited{
 
 
 .colon {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-colon{
 	background-image: url("colon.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .colon .circ1 {
+	left: 37.5px;
 	width: 5px;
     height: 5px;
     border-radius: 12.5px;
@@ -2298,6 +2303,7 @@ a:visited{
 }
 
 .colon .circ2 {
+	left: 37.5px;
 	top: 75px;
 	width: 5px;
     height: 5px;
@@ -2311,18 +2317,19 @@ a:visited{
 
 
 .semicolon {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-semicolon{
 	background-image: url("comma.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .semicolon .circ {
+	left: 37.5px;
 	width: 5px;
     height: 5px;
     border-radius: 12.5px;
@@ -2335,6 +2342,7 @@ a:visited{
 
 .semicolon .br {
 	top: 75px;
+	left: 30px;
 	width: 15px;
     height: 15px;
     border-bottom-right-radius: 25px;
@@ -2351,18 +2359,19 @@ a:visited{
 
 
 .singlequotel {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-singlequotel{
 	background-image: url("singlequotel.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .singlequotel .tl {
+	left: 45px;
 	width: 15px;
     height: 15px;
     border-top-left-radius: 25px;
@@ -2379,18 +2388,20 @@ a:visited{
 
 
 .singlequoter {
-	width: 12.5px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-singlequoter{
 	background-image: url("singlequoter.png");
 	background-size: 100%;
-	width: 12.5px;
+	width: 50px;
 	height: 50px;
 }
 
 .singlequoter .br {
+	top: 10px;
+	left: 30px;
 	width: 15px;
     height: 15px;
     border-bottom-right-radius: 25px;
@@ -2406,18 +2417,19 @@ a:visited{
 
 
 .doublequotel {
-	width: 25px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-doublequotel{
 	background-image: url("singlequotel.png");
 	background-size: 100%;
-	width: 25px;
+	width: 50px;
 	height: 50px;
 }
 
 .doublequotel .tl1 {
+	left: 20px;
 	width: 15px;
     height: 15px;
     border-top-left-radius: 25px;
@@ -2431,7 +2443,7 @@ a:visited{
 }
 
 .doublequotel .tl2 {
-	left: 25px;
+	left: 65px;
 	width: 15px;
     height: 15px;
     border-top-left-radius: 25px;
@@ -2448,18 +2460,20 @@ a:visited{
 
 
 .doublequoter {
-	width: 25px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-doublequoter{
 	background-image: url("singlequoter.png");
 	background-size: 100%;
-	width: 25px;
+	width: 50px;
 	height: 50px;
 }
 
 .doublequoter .br1 {
+	top: 10px;
+	left: 30px;
 	width: 15px;
     height: 15px;
     border-bottom-right-radius: 25px;
@@ -2473,7 +2487,8 @@ a:visited{
 }
 
 .doublequoter .br2 {
-	left: 25px;
+	top: 10px;
+	left: 75px;
 	width: 15px;
     height: 15px;
     border-bottom-right-radius: 25px;
@@ -2490,21 +2505,220 @@ a:visited{
 
 
 .dash {
-	width: 25px;
+	width: 50px;
 	position: relative;
 }
 
 .lines-dash{
 	background-image: url("dash.png");
 	background-size: 100%;
-	width: 25px;
+	width: 50px;
 	height: 50px;
 }
 
 .dash .hor {
 	top: 45px;
-	width: 25px;
+	width: 100px;
 	height: 10px;
 	background: black;
 	position: absolute;
+}
+
+
+
+.parenthesisl {
+	width: 50px;
+	position: relative;
+}
+
+.lines-parenthesisl{
+	background-image: url("parenthesisl.png");
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.parenthesisl .tl {
+	left: 50px;
+	width: 40px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+.parenthesisl .bl {
+	left: 50px;
+	top: 50px;
+	width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 50px;
+    border: 10px solid black;
+    border-top: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+
+
+.parenthesisr {
+	width: 50px;
+	position: relative;
+}
+
+.lines-parenthesisr{
+	background-image: url("parenthesisr.png");
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.parenthesisr .tr {
+	left: 0px;
+	width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+}
+
+.parenthesisr .br {
+	top: 50px;
+	left: 0px;
+	width: 40px;
+    height: 40px;
+    border-bottom-right-radius: 50px;
+    border: 10px solid black;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+}
+
+
+
+
+.plus {
+	width: 50px;
+	position: relative;
+}
+
+.lines-plus{
+	background-image: url("plus.png");
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.plus .vert {
+	left: 45px;
+	width: 10px;
+	height: 100px;
+	background: black;
+	position: absolute;
+}
+
+.plus .hor {
+	top: 45px;
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+
+
+.equal {
+	width: 50px;
+	position: relative;
+}
+
+.lines-equal{
+	background-image: url("equal.png");
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.equal .hor1 {
+	top: 45px;
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.equal .hor2 {
+	top: 90px;
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+
+
+.slash {
+	width: 50px;
+	position: relative;
+}
+
+.lines-slash{
+	background-image: url("slash.png");
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.slash .hor1 {
+	top: 90px;
+	width: 5px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.slash .hor2 {
+	left: 95px;
+	width: 5px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.slash .tl {
+	left: 45px;
+	width: 40px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+.slash .tl {
+	left: 45px;
+	width: 40px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+.slash .br {
+	top: 50px;
+	left: 0px;
+	width: 40px;
+    height: 40px;
+    border-bottom-right-radius: 50px;
+    border: 10px solid black;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
 }
