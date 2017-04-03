@@ -2754,22 +2754,46 @@ a:visited{
 
 .dollar .hor2 {
 	top: 20px;
-	left: 75px;
-	width: 100px;
+	left: 25px;
+	width: 75px;
+	height: 10px;
+	background: black;
+	position: absolute;
+}
+
+.dollar .hor3 {
+	top: 70px;
+	left: 0px;
+	width: 75px;
 	height: 10px;
 	background: black;
 	position: absolute;
 }
 
 .dollar .br {
-	top: 10px;
-	left: 30px;
+	top: 55px;
+	left: 75px;
 	width: 15px;
     height: 15px;
     border-bottom-right-radius: 25px;
     border: 10px solid black;
     border-top: 0;
     border-left: 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.dollar .tl {
+	top: 20px;
+	left: 0px;
+	width: 15px;
+    height: 15px;
+    border-top-left-radius: 25px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
