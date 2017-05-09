@@ -4,28 +4,75 @@
 	<title>Visual Translations</title>
 	
 	<style> 
-	body{margin: 0;
-		overflow: hidden}
+	body{
+		margin: 0;
+		padding: 0;
+	}
 
 	a:visited{
-		color: black
+		color: black;
+	}
+
+	a{
+		color: black;
 	}
 
 	.title{
 
-		font-family: "Liberation sans", sans-serif;
+		font-family: "Arial", sans-serif;
 		font-size: 70pt;
 		font-weight: bold;
 	}
 
+
+	@keyframes Title {
+	from {left:100%;}
+	to {left:-40%;}
+	}
+
+	.marquee {
+	  height: 40px;
+	  width: 100vw;
+
+	  overflow: hidden;
+	  position: relative;
+
+	font-family: "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 30pt;
+	}
+
+	.marquee div {
+	  display: block;
+	  width: 200%;
+	  height: 50px;
+
+	  position: absolute;
+	  overflow: hidden;
+
+	  animation: marquee 20s linear infinite;
+	}
+
+	.marquee span {
+	  float: left;
+	  width: 20%;
+	}
+
+	@keyframes marquee {
+	  0% { left: 0; }
+	  100% { left: -100%; }
+	}
+
 	.containert{
-		padding-top: 40px;
+		position: fixed;
+		padding-top: 10px;
 		padding-left: 20px;
 		width: 100vw;
+		z-index: 100;
 
-		font-family: "Liberation sans", sans-serif;
+		font-family: "Arial", sans-serif;
 		font-size: 24pt;
-		font-weight: bolder;
+		font-weight: normal;
 		line-height: 70px;
 
 		/*background-color: yellow;*/
@@ -39,7 +86,15 @@
 		/*background-color: red;*/
 		padding-left: 10px;
 		padding-right: 10px;
+		position: absolute;
 
+		animation: pics 200s linear infinite;
+
+	}
+
+	@keyframes pics {
+	  0% { left: 0; }
+	  100% { left: -1000%; }
 	}
 
 	.translations{
@@ -50,17 +105,55 @@
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+
+	@keyframes lightSpeedIn{0%{-webkit-transform:translateX(100%) skewX(-30deg);-ms-transform:translateX(100%) skewX(-30deg);transform:translateX(100%) skewX(-30deg);opacity:0}60%{-webkit-transform:translateX(-20%) skewX(30deg);-ms-transform:translateX(-20%) skewX(30deg);transform:translateX(-20%) skewX(30deg);opacity:1}80%{-webkit-transform:translateX(0%) skewX(-15deg);-ms-transform:translateX(0%) skewX(-15deg);transform:translateX(0%) skewX(-15deg);opacity:1}100%{-webkit-transform:translateX(0%) skewX(0deg);-ms-transform:translateX(0%) skewX(0deg);transform:translateX(0%) skewX(0deg);opacity:1}}
+
+.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}
 	</style>
 
 </head>
 
 
 <body>	
-<div class="containert"> 
-	<span class="title">VISUAL TRANSLATIONS</span> <br>
+
+<div class="marquee">
+	<div>
+	<span>VISUAL TRANSLATIONS</span>
+	<span>VISUAL TRANSLATIONS</span>
+	<span>VISUAL TRANSLATIONS</span>
+	<span>VISUAL TRANSLATIONS</span>
+	<span>VISUAL TRANSLATIONS</span>
+	</div>
+</div>
+ <br>
+ <div class="containert"> 
 	&nbsp; Weeks &nbsp; <a href="#twelve">12</a> &nbsp; <a href="#eleven">11</a> &nbsp; <a href="#ten">10</a> &nbsp; <a href="#nine">09</a> &nbsp; <a href="#eight">08</a> &nbsp; <a href="#seven">07</a> &nbsp; <a href="#six">06</a> &nbsp; <a href="#five">05</a> &nbsp; <a href="#four">04</a> &nbsp; <a href="#three">03</a> &nbsp; <a href="#two">02</a> &nbsp; <a href="#one">01</a> &nbsp;
 </div>
 <div class="containerb">
+	<img src="vt/AG_60.jpg" class="translations">
+	<a name="twelve"><img src="vt/AG_59.jpg" class="translations"></a>
+	<img src="vt/AG_58.jpg" class="translations">
+	<img src="vt/AG_57.jpg" class="translations">
+	<img src="vt/AG_56.jpg" class="translations">
+
+	<img src="vt/AG_55.jpg" class="translations">
+	<a name="eleven"><img src="vt/AG_54.jpg" class="translations"></a>
+	<img src="vt/AG_53.jpg" class="translations">
+	<img src="vt/AG_52.jpg" class="translations">
+	<img src="vt/AG_51.jpg" class="translations">
+
+	<img src="vt/AG_50.jpg" class="translations">
+	<a name="ten"><img src="vt/AG_49.jpg" class="translations"></a>
+	<img src="vt/AG_48.jpg" class="translations">
+	<img src="vt/AG_47.jpg" class="translations">
+	<img src="vt/AG_46.jpg" class="translations">
+
+	<img src="vt/AG_45.jpg" class="translations">
+	<a name="nine"><img src="vt/AG_44.jpg" class="translations"></a>
+	<img src="vt/AG_43.jpg" class="translations">
+	<img src="vt/AG_42.jpg" class="translations">
+	<img src="vt/AG_41.jpg" class="translations">
+
 	<img src="vt/AG_40.jpg" class="translations">
 	<a name="eight"><img src="vt/AG_39.jpg" class="translations"></a>
 	<img src="vt/AG_38.jpg" class="translations">
@@ -110,6 +203,52 @@
 	<img src="vt/AG_11.jpg" class="translations">
 
 </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h3 class="revealOnScroll" data-animation="lightSpeedIn">Other animation</h3>
+
+ <script type="text/javascript">
+ $(function() {
+
+  var $window           = $(window),
+      win_height_padded = $window.height() * 1.1,
+      isTouch           = Modernizr.touch;
+
+  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
+
+  $window.on('scroll', revealOnScroll);
+
+  function revealOnScroll() {
+    var scrolled = $window.scrollTop(),
+        win_height_padded = $window.height() * 1.1;
+
+    // Showed...
+    $(".revealOnScroll:not(.animated)").each(function () {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+
+      if (scrolled + win_height_padded > offsetTop) {
+        if ($this.data('timeout')) {
+          window.setTimeout(function(){
+            $this.addClass('animated ' + $this.data('animation'));
+          }, parseInt($this.data('timeout'),10));
+        } else {
+          $this.addClass('animated ' + $this.data('animation'));
+        }
+      }
+    });
+    // Hidden...
+   $(".revealOnScroll.animated").each(function (index) {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+      if (scrolled + win_height_padded < offsetTop) {
+        $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
+      }
+    });
+  }
+
+  revealOnScroll();
+});
+ </script>
 
 	
 </body>
